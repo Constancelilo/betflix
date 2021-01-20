@@ -1,0 +1,43 @@
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .8rem 0;
+    border-radius: 12px ;}
+    #content {
+        display: flex;
+      
+        justify-content: space-around;
+        flex-flow: row wrap;
+        align-items: stretch;
+      }
+      .box1 {
+        flex-grow: 1;
+        border: 3px solid rgba(0,0,0,.2);
+      }
+      #content {
+        display: flex;
+      
+        justify-content: space-around;
+        flex-flow: row wrap;
+        align-items: stretch;
+    }
+    .accueil{
+        flex-grow: 1 ;
+        border-color: burlywood;
+        align-items: flex-end;
+    }
+    .Films{
+        flex-grow: 1 ;
+        border-color: burlywood;
+        align-items: flex-end;
+    }
+    .séries{
+        flex-grow: 1 ;
+        border-color: burlywood;
+        align-items: flex-end;
+    }
+      

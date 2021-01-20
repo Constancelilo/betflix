@@ -1,0 +1,356 @@
+
+/*---------------------------------------------nav-------------------------------------*/
+body{
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+    background-position: center;
+    background-color:black;
+
+}
+
+nav{
+    background-color:black;
+    display: flex ;
+    justify-content: space-between; 
+    align-items: center ;
+    text-decoration: none;
+}
+nav a:active{ 
+    text-decoration: none;
+}
+nav a {
+    text-decoration: none;
+}
+
+
+
+.div{
+    width: 200px;
+    height: 80px;
+    justify-content: space-around;
+    
+}
+h2{ display: flex;
+    align-self: center;
+    color:brown;
+    font-size: 7em;
+   font-family:Castellar;
+   border-top: brown 3px solid;
+   border-bottom: brown 3px solid;
+}
+
+/*-------------------------------------------bouton recherche---------------------------------------*/
+.bouton{
+   
+    flex-grow: inherit;
+   
+    margin-left: 20px;
+    border-radius: 12px;
+    color: white;
+    background-image: url(./066be0d6343b9f58753b4e4bb990cb954.jpg);
+    border: solid black;
+}
+
+/*----------------------------------------------menu déroulant----------------------------------*/
+.choix{ display:none;
+ }
+
+.btnList:hover ul{
+    z-index:99999;
+display:flex;
+flex-direction: column;
+position:absolute;
+margin-top:5px;
+margin-left:-20px;
+}
+
+.btna{
+    text-decoration:none;
+    color:white ;
+    display: flex;
+align-self: center;
+cursor: pointer;
+}
+.btna:hover{
+    color: coral;
+}
+.btn{
+    text-decoration:none;
+    color:white ;
+    display: flex;
+align-self: center;
+cursor: pointer;
+}
+
+
+
+li {
+    list-style:none;
+    text-decoration:none;
+    padding:10px;
+    border-top: solid white;
+    }
+li:hover{
+    color: coral;
+}
+/*----------------------------------------------------body--------------------------------------------*/
+
+
+.film{
+    background-color:black;
+    justify-content: space-between;
+ margin-inline-end: 75px;
+ margin-inline-start: 75px;
+
+ ;
+}
+.barre{
+    display: flex;
+    align-items: center;
+}
+/*----------------------------------------FILMS---------------------------------------------*/
+.films{
+    display: flex;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius:  20px;
+    flex-wrap: wrap;  
+    
+}
+.firstcard{
+    background-color:black;
+    width: 300px;
+    height: 400px;  
+    margin: 50px;  
+    cursor: pointer; 
+}
+h3:hover{
+    color: coral;
+}
+h3{ 
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    font-family: monospace;
+    color: white;
+}
+.rating {
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+    
+ }
+.rating a {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: color .4s;
+    align-items: center;
+}
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a {
+    color: orange;
+    cursor: pointer;
+  
+}
+.secondcard{
+    background-color:black;
+    width: 300px;
+    height:400px;
+    margin-right: 30px;
+    margin-top: 50px;
+    cursor: pointer; 
+}
+.thirdcard{
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    cursor: pointer; 
+}
+.fourthcard{
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+    cursor: pointer; 
+}
+.fifthcard{
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+    cursor: pointer; 
+}
+.sixthcard{
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+    cursor: pointer; 
+}
+.seventhcard{
+    background-color: black;
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+    cursor: pointer;
+}
+img{
+    border-radius: 40px;
+}
+/*---------------------------------------------SERIES--------------------------*/
+.serie{
+    background-color:black;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius:  20px;
+    flex-wrap: wrap;
+}
+
+.un{
+    background-color: burlywood;
+    width: 300px;
+    height: 400px;
+    margin: 50px;    
+    cursor: pointer; 
+}
+h3{ 
+    display: flex;
+    justify-content: center;
+}
+.deux{
+    background-color: burlywood;
+    width: 300px;
+    height: 400px;
+    margin-right: 30px;
+    margin-top: 50px;
+    cursor: pointer; 
+
+}
+.trois{
+    background-color: burlywood;
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    cursor: pointer; 
+}
+.quatre{
+    background-color: burlywood;
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+    cursor: pointer; 
+}
+/*-------------------------------------------margin entre les boîtes--------------------------*/
+h1{
+    display: flex;
+    margin-top: 100px;
+    color: white;
+    font-size: 2em;
+    justify-content: center;
+    border-top: white solid 3px;
+    border-bottom: white solid 3px;
+  
+
+}
+
+/*------------------------------------------pagination--------------------------*/
+
+
+
+.pagination{
+    display: inline-block;
+    list-style: none;
+    align-self: center;
+    margin-top: 100px;
+    
+}
+.paginationa{
+    color: darkseagreen;
+    float: left;
+    padding: 8px 10px;
+    text-decoration:none;
+    align-self: center;
+    min-width: 500px;
+}
+.pagination a{
+    display: flex;
+    color:white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+
+  }
+
+  .pagination a:hover:not(.active){
+      background-color: #ddd;
+    }
+
+/*---------------------------------------------footer-----------------------------*/
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 50px;
+    border-right: solid white;
+    border-left: solid white;
+    margin-top: 100px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    width: 200px;
+    height: 100px;
+    cursor: pointer; 
+   }
+   
+.condition{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;   
+}
+.politique{
+    display: flex;
+    background-color: black;
+    width: 200px;
+    height: 100px;
+    justify-content: center;
+    border-left: white;
+    cursor: pointer; 
+}
+h4{ display: flex;
+    align-self: center;
+    color: white;
+
+}
+h4:hover{
+    color: coral;
+}
+/*---------------------------------------animation chargement----------------------------------------*/
+.logo{
+
+    width: 100px;
+    
+    transition:  transform 2s;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .logo:hover {
+
+    transform: rotate(1800deg);
+  }
+
+ 
+ 
